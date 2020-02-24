@@ -1,0 +1,38 @@
+Séance 1 - Rencontre professeur TB - 18.02.2020
+
+Assistant --> Liu Zhan
+
+A FAIRE :
+
+
+A RECEVOIR : 
+- Documentation par Nicole pour le but du travail
+- Focus Groupe
+- Travail Bachelor "fake news" 
+- Processus 
+- Outil de détection plagiat (Liu Zhan)
+- Email + téléphone (Liu Zhan) 
+
+BUT : 
+
+- Alimenter l'outil avec du texte "nouveau" pour le donner un certificat de qualité
+
+
+A RENCONTRER :
+- Mathieu Delaloye, Fabien Cretton
+- L'institut 
+
+
+A DETECTER : 
+- Plagiat --> voir traduction 
+- Qualité du contenu... sources? 
+- Tracabilité, si changement de l'article
+
+- En tout cas français, prioritaire
+
+- DOI, a voir ce que c'est (article scientifique)
+
+CODE : 
+
+- MySQL database 
+- PHP 
