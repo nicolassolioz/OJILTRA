@@ -1,0 +1,16 @@
+DB MYSQL:
+Nom du login:
+acl_mysql_student
+Mot de passe:
+za3ET5FDGhgTWJVm
+Nom de DB:
+imi_tojc
+
+FTP:
+url : lxhdude.hevs.ch
+port : 21
+user : acl_ftp_student
+pwd : r485bRHkT7FWXmm5
+
+URL:
+http://lxhdude.hevs.ch:7890/project/tojc
