@@ -11,7 +11,7 @@ require_once 'init-api.php';
     ];
 
     //loop from 1 to 50
-    for($x = 1; $x<=50; $x++)
+    for($x = 51; $x<=63; $x++)
     {
         $files = [
             'file' => realpath('C:/Users/Nicolas Solioz/Documents/HES/TB/OJILTRA/Sprint 4/raw article text/' . $x . '.txt'),

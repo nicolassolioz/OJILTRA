@@ -5,7 +5,7 @@ require_once 'init-api.php';
 
 $myfile = fopen("plagiat-results.txt", "w") or die("Unable to open file!");
 
-for($x = 1; $x<=50; $x++)
+for($x = 51; $x<=63; $x++)
 {
     $fileread = "C:/Users/Nicolas Solioz/Documents/HES/TB/OJILTRA/web/ps/report/report-" . $x . ".txt";
     $handle = fopen($fileread, "r");
