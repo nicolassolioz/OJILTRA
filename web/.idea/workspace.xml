@@ -5,6 +5,7 @@
       <change afterPath="$PROJECT_DIR$/tojc/demo/log.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tojc/demo/log/log_05-Jun-2020.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tojc" beforeDir="false" afterPath="$PROJECT_DIR$/tojc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tojc/.gitattributes" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tojc/demo/createArticle.php" beforeDir="false" afterPath="$PROJECT_DIR$/tojc/demo/createArticle.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tojc/demo/model/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/tojc/demo/model/Article.php" afterDir="false" />
     </list>
@@ -63,7 +64,7 @@
       <workItem from="1589396908032" duration="1793000" />
       <workItem from="1590505017648" duration="3389000" />
       <workItem from="1591297650810" duration="1937000" />
-      <workItem from="1591368681714" duration="3005000" />
+      <workItem from="1591368681714" duration="3257000" />
     </task>
     <servers />
   </component>
