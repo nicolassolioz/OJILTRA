@@ -29,7 +29,7 @@ if (isset($_POST['email']) && isset($_POST['pass'])){
 
 		if($roleId == 1){
 			//Journalist
-			header("Location: article.php");
+			header("Location: articles.php");
 		}else if($roleId == 2){
 			//Editor
 			header("Location: label_distribution.php");

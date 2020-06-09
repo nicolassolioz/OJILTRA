@@ -4,6 +4,8 @@
 // Created: 	2020/05/05
 // Last update:	2020/05/05
 require_once("log.php");
+require_once("model/ConnectionManager.php");
+require_once("model/Entity.php");
 
 
 class Article extends Entity
@@ -24,7 +26,43 @@ class Article extends Entity
 	{
 		parent::__construct("ARTICLE", "ARTICLE_");
 	}
-	
+
+	public static function getByLoggedUserId()
+    {
+        $articles = array();
+
+        $entity = new Article();
+        //$res = $entity->getAllRows();
+        $query = "SELECT * FROM ARTICLE WHERE USER_ID=" . $_SESSION["userid"] . " ORDER BY ARTICLE_DATECREATION DESC";
+        $res = $entity->getRowsFromQuery($query);
+
+        wh_log("query : " . $query);
+        wh_log("USER ID loggedin : " . $_SESSION["userid"]);
+        if ($res != null)
+        {
+            while($row = $res->fetch_assoc())
+            {
+                $article = new Article();
+                $article->id = $row['ARTICLE_ID'];
+                $article->code = $row['ARTICLE_CODE'];
+                $article->title = $row['ARTICLE_TITLE'];
+                $article->summary = $row['ARTICLE_SUMMARY'];
+                $article->content = $row['ARTICLE_CONTENT'];
+                $article->dateCreation = $row['ARTICLE_DATECREATION'];
+                $article->url = $row['ARTICLE_URL'];
+                $article->nbClick = $row['ARTICLE_NBCLICK'];
+                $article->nbShare = $row['ARTICLE_NBSHARE'];
+                $article->user_id = $row['USER_ID'];
+                $article->article_status_id = $row['ARTICLE_STATUS_ID'];
+
+                array_push($articles, $article);
+            }
+
+            $res->close();
+        }
+
+        return $articles;
+    }
 	public static function getAll()
 	{
 		$articles = array();
@@ -43,7 +81,7 @@ class Article extends Entity
 				$article->title = $row['ARTICLE_TITLE'];
 				$article->summary = $row['ARTICLE_SUMMARY'];
 				$article->content = $row['ARTICLE_CONTENT'];
-				$article->dateCreation = $row['ARTICLE_DATECRATIOM'];
+				$article->dateCreation = $row['ARTICLE_DATECREATION'];
 				$article->url = $row['ARTICLE_URL'];
 				$article->nbClick = $row['ARTICLE_NBCLICK'];
 				$article->nbShare = $row['ARTICLE_NBSHARE'];
@@ -67,7 +105,7 @@ class Article extends Entity
 		$summary = $entity->real_escape_string($this->summary);
 		$content = $entity->real_escape_string($this->content);
 
-		$query = "INSERT INTO ARTICLE(ARTICLE_CODE, ARTICLE_TITLE, ARTICLE_SUMMARY, ARTICLE_CONTENT, ARTICLE_DATECREATION, ARTICLE_URL, ARTICLE_NBCLICK, ARTICLE_NBSHARE, USER_ID, ARTICLE_STATUS_ID) VALUES('".$this->code."', '".$title."', '".$summary."', '".$content."', '".date("Y-m-d H:i:s", $this->dateCreation)."', '".$this->url."', 0, 0, ".$this->user_id.", ".$this->article_status_id.")";
+		$query = "INSERT INTO ARTICLE(ARTICLE_CODE, ARTICLE_TITLE, ARTICLE_SUMMARY, ARTICLE_CONTENT, ARTICLE_DATECREATION, ARTICLE_URL, ARTICLE_NBCLICK, ARTICLE_NBSHARE, USER_ID, ARTICLE_STATUS_ID) VALUES('".$this->code."', '".$title."', '".$summary."', '".$content."', '".$this->dateCreation."', '".$this->url."', 0, 0, ".$this->user_id.", ".$this->article_status_id.")";
 		//error_log("contect:".$content, 3, "log/my-errors.log");
         //wh_log("Article created : " . date("hh-mm"));
         wh_log($query);
@@ -90,7 +128,7 @@ class Article extends Entity
 				$article->title = $row['ARTICLE_TITLE'];
 				$article->summary = $row['ARTICLE_SUMMARY'];
 				$article->content = $row['ARTICLE_CONTENT'];
-				$article->dateCreation = $row['ARTICLE_DATECRATIOM'];
+				$article->dateCreation = $row['ARTICLE_DATECREATION'];
 				$article->url = $row['ARTICLE_URL'];
 				$article->nbClick = $row['ARTICLE_NBCLICK'];
 				$article->nbShare = $row['ARTICLE_NBSHARE'];
@@ -120,7 +158,7 @@ class Article extends Entity
 			$article->title = $row['ARTICLE_TITLE'];
 			$article->summary = $row['ARTICLE_SUMMARY'];
 			$article->content = $row['ARTICLE_CONTENT'];
-			$article->dateCreation = $row['ARTICLE_DATECRATIOM'];
+			$article->dateCreation = $row['ARTICLE_DATECREATION'];
 			$article->url = $row['ARTICLE_URL'];
 			$article->nbClick = $row['ARTICLE_NBCLICK'];
 			$article->nbShare = $row['ARTICLE_NBSHARE'];

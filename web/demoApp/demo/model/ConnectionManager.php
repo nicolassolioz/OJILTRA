@@ -15,7 +15,8 @@ class ConnectionManager
 		{
 			ConnectionManager::$db_conn = mysqli_connect(DB_SERVER, DB_USER, DB_PASSWORD, DB_NAME);
 		}
-                mysqli_set_charset(ConnectionManager::$db_conn, "utf8");
+                mysqli_set_charset(ConnectionManager::$db_conn, "utf8m");
+
 		return ConnectionManager::$db_conn;
 	}
 	// Close the existing DB connection:

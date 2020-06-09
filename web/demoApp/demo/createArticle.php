@@ -24,12 +24,12 @@ if (isset($_POST['code']) && isset($_POST['url']) && isset($_POST['title']) && i
     $article->summary = $summary;
     $article->content = $content;
     $article->dateCreation = date("Y-m-d H:i:s");
-    $article->user_id = 1;
+    $article->user_id = $_SESSION["userid"];
     $article->article_status_id = 1;
 
     $article->save();
 
-    header("Location: self_evaluation.html");
+    header("Location: articles.php");
 }
 
 

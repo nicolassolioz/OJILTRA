@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f17b18b-733d-461c-8779-cd6507c0d9bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tojc/demo/log.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tojc/demo/log/log_05-Jun-2020.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tojc" beforeDir="false" afterPath="$PROJECT_DIR$/tojc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tojc/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tojc/demo/createArticle.php" beforeDir="false" afterPath="$PROJECT_DIR$/tojc/demo/createArticle.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tojc/demo/model/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/tojc/demo/model/Article.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demoApp/demo/articles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demoApp/demo/log/log_09-Jun-2020.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demoApp/demo/self_evaluation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/article.php" beforeDir="false" afterPath="$PROJECT_DIR$/demoApp/demo/article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/checkLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/demoApp/demo/checkLogin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/createArticle.php" beforeDir="false" afterPath="$PROJECT_DIR$/demoApp/demo/createArticle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/list_evaluation.html" beforeDir="false" afterPath="$PROJECT_DIR$/demoApp/demo/list_evaluation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/model/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/demoApp/demo/model/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/model/ConnectionManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/demoApp/demo/model/ConnectionManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/self_evaluation.html" beforeDir="false" afterPath="$PROJECT_DIR$/demoApp/demo/self_evaluation.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +26,7 @@
     </execution>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/tojc" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1bMd1obJUDENOggAbYsTQHmNdE1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -30,13 +35,18 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/demoApp/demo" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Nicolas Solioz\Documents\HES\TB\OJILTRA\web\demoApp\demo" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -65,6 +75,8 @@
       <workItem from="1590505017648" duration="3389000" />
       <workItem from="1591297650810" duration="1937000" />
       <workItem from="1591368681714" duration="3257000" />
+      <workItem from="1591634098392" duration="88000" />
+      <workItem from="1591635081977" duration="9660000" />
     </task>
     <servers />
   </component>

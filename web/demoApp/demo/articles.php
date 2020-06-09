@@ -26,62 +26,61 @@
 	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-article">
-				
+                <?php
+                    require_once("model/Article.php");
+                    require_once("model/Entity.php");
+                    require_once("config.php");
+                    require_once("model/ConnectionManager.php");
+                    require_once("log.php");
+                    session_start();
 
-				<form class="article-form validate-form" method="POST" action="createArticle.php">
+                    $articles = Article::getByLoggedUserId();
+                    $value = 'test';
+                ?>
+
+                <form class="article-form validate-form">
 					<span class="login100-form-title">
-						Create a News Article
+						News Articles for Evaluation
 					</span>
 
-					<div class="mt-10">
-						<input type="text" name="code" placeholder="Article Code"
-							onfocus="this.placeholder = ''" onblur="this.placeholder = 'Article Code'" required
-							class="single-input">
-					</div>
+                    <div class="progress-table-wrap">
+                        <div class="progress-table">
+                            <div class="table-head">
+                                <div class="code">ID</div>
+                                <div class="date">Date</div>
+                                <div class="title">Title</div>
+                                <div class="evaluation">Evaluation</div>
+                            </div>
 
-					<div class="mt-10">
-						<input type="text" name="url" placeholder="URL"
-							onfocus="this.placeholder = ''" onblur="this.placeholder = 'URL'" required
-							class="single-input">
-					</div>
+                            <?php
+                            for ($x = 0; $x < sizeof($articles); $x++) { ?>
+                                <div class="table-row">
+                                    <div class="code"><?php echo $articles[$x]->code ?></div>
+                                    <div class="date"><?php echo $articles[$x]->dateCreation ?></div>
+                                    <div class="title"><?php echo $articles[$x]->title ?></div>
+                                    <div class="evaluation">
+                                        <a href="./self_evaluation.php?articleId=<?php echo $articles[$x]->id; ?>" class="genric-btn link">Evaluate</a>
+                                    </div>
+                                </div>
+                            <?php } ?>
+                            ?>
+                        </div>
+                    </div>
 
-					<div class="mt-10">
-						<input type="text" name="title" placeholder="Title"
-							onfocus="this.placeholder = ''" onblur="this.placeholder = 'Title'" required
-							class="single-input">
-					</div>
 
-					<div class="mt-10">
-						<input type="text" name="summary" placeholder="Summary"
-							onfocus="this.placeholder = ''" onblur="this.placeholder = 'Summary'" required
-							class="single-input">
-					</div>
+                    <div class="text-center p-t-80">
+                        <a class="txt2" href="./article.php">
+                            Create a new article
+                            <i class="fa fa-edit m-l-5" aria-hidden="true"></i>
+                        </a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="txt2" href="./logout.php">
+                            Logout
+                            <i class="fa fa-sign-out m-l-5" aria-hidden="true"></i>
+                        </a>
+                    </div>
 
-					<div class="mt-10">
-						<textarea name="content" class="single-textarea" placeholder="Content" onfocus="this.placeholder = ''"
-							onblur="this.placeholder = 'Content'" required ></textarea>
-					</div>
-					
-					<div class="container-login100-form-btn">
-						<button class="login100-form-btn">
-							Submit
-						</button>
-					</div>
-					
-
-					<div class="text-center p-t-80">
-						<a class="txt2" href="articles.php">
-							Evaluate your articles
-							<i class="fa fa-check-square-o m-l-5" aria-hidden="true"></i>
-						</a>
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<a class="txt2" href="logout.php">
-							Logout
-							<i class="fa fa-sign-out m-l-5" aria-hidden="true"></i>
-						</a>
-					</div>
-
-				</form>
+                </form>
 			</div>
 		</div>
 	</div>
