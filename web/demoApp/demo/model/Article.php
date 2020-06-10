@@ -33,7 +33,7 @@ class Article extends Entity
 
         $entity = new Article();
         //$res = $entity->getAllRows();
-        $query = "SELECT * FROM ARTICLE WHERE USER_ID=" . $_SESSION["userid"] . " ORDER BY ARTICLE_DATECREATION DESC";
+        $query = "SELECT * FROM ARTICLE WHERE USER_ID=" . $_SESSION["userid"] . " AND ARTICLE_ID NOT IN(SELECT ARTICLE_ID FROM LABEL) ORDER BY ARTICLE_DATECREATION DESC";
         $res = $entity->getRowsFromQuery($query);
 
         wh_log("query : " . $query);
@@ -124,6 +124,9 @@ class Article extends Entity
         $query = "UPDATE ARTICLE SET ARTICLE_CODE='" . $this->code . "', ARTICLE_TITLE='" . $title . "', ARTICLE_SUMMARY='" . $summary . "', ARTICLE_CONTENT='" . $content . "', ARTICLE_URL='" . $this->url . "' WHERE ARTICLE_ID=" . $this->id;
 
         wh_log($query);
+        $this->executeQuery($query);
+
+        $query = "INSERT INTO ARTICLE_REVISION_HISTORY(HISTORY_DATE, ARTICLE_ID, USER_ID) VALUES('".date("Y-m-d H:i:s")."', '".$this->id."', '".$this->user_id."')";
         $this->executeQuery($query);
     }
 

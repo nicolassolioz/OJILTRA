@@ -75,3 +75,67 @@ UPDATE : 1
 UPDATE ARTICLE SET ARTICLE_CODE='923573', ARTICLE_TITLE='Coronavirus: des Valaisans de toutes les générations ont guéri', ARTICLE_SUMMARY='Ils ont entre 28 et 86 ans et se sont remis du virus. Ils témoignent de leur vécu pour donner du courage et de l\'espoir.', ARTICLE_CONTENT='Si le Valais connaît chaque jour de nouvelles personnes infectées par le Coronavirus, on y trouve aussi de nombreux patients guéris. Certains malades se sont soignés chez eux, d’autres ont été hospitalisés.  Parmi eux, des personnes âgées, la population la plus vulnérable au virus, qui se sont remises. A l\'image d\'un Valaisan de 86 ans et de sa compagne du même âge. «On a eu très peur quand on a su qu\'ils avaient le coronavirus. Mais ils s\'en sont sortis. Cela montre qu\'on doit garder l’espoir», souligne Isabelle, petite-fille de l\'octogénaire. Son grand-papa a été hospitalisé à Sion, le 16 mars, après avoir présenté plusieurs symptômes et été testé positif au virus. «Il est rentré à l’hôpital déshydraté; on l\'a perfusé. Dans la famille, on était sûrs que c\'était la fin», raconte Isabelle.Rapidement pourtant, l’état de santé de son grand-papa s\'est amélioré. «Il a eu des difficultés à respirer mais n\'a pas eu besoin d’assistance respiratoire, au contraire de sa compagne.» Quelques jours plus tard, le couple a été transféré en gériatrie à l\'hôpital de Martigny pour terminer sa convalescence et récupérer. «Ils sont dans la même chambre et vont tous les deux bien aujourd\'hui», se réjouit Isabelle.  Impossible par contre de savoir où son grand-papa a attrapé le coronavirus. «Comme il a des pertes de mémoire, il ne se souvient pas en détail de ce qu\'il a fait les jours précédant les symptômes.» Par contre, sa compagne et lui sont conscients «d\'avoir eu de la chance. Mon grand-papa sait qu\'il est passé tout près de la mort», conclut Isabelle.', ARTICLE_URL='https://www.lenouvelliste.ch/dossiers/coronavirus/articles/coronavirus-des-valaisans-de-toutes-les-generations-ont-gueri-923571' WHERE ARTICLE_ID=1
 query : SELECT * FROM ARTICLE WHERE USER_ID=1 ORDER BY ARTICLE_DATECREATION DESC
 USER ID loggedin : 1
+query : SELECT * FROM ARTICLE WHERE USER_ID=1 ORDER BY ARTICLE_DATECREATION DESC
+USER ID loggedin : 1
+query : SELECT * FROM ARTICLE WHERE USER_ID=1 ORDER BY ARTICLE_DATECREATION DESC
+USER ID loggedin : 1
+query : SELECT * FROM ARTICLE WHERE USER_ID=1 ORDER BY ARTICLE_DATECREATION DESC
+USER ID loggedin : 1
+query : SELECT * FROM ARTICLE WHERE USER_ID=1 AND NOT IN(SELECT * FROM LABEL WHERE USER_ID=1ORDER BY ARTICLE_DATECREATION DESC
+USER ID loggedin : 1
+query : SELECT * FROM ARTICLE WHERE USER_ID=1 AND NOT IN(SELECT * FROM LABEL WHERE USER_ID=1ORDER BY ARTICLE_DATECREATION DESC
+USER ID loggedin : 1
+UPDATE : 
+INSERT INTO ARTICLE(ARTICLE_CODE, ARTICLE_TITLE, ARTICLE_SUMMARY, ARTICLE_CONTENT, ARTICLE_DATECREATION, ARTICLE_URL, ARTICLE_NBCLICK, ARTICLE_NBSHARE, USER_ID, ARTICLE_STATUS_ID) VALUES('97455', 'How to display a confirmation dialog when clicking an <a> link?', '  I want this link to have a JavaScript dialog that asks the user “Are you sure? Y/N”.', 'If the user clicks “Yes”, the link should load, if “No” nothing will happen.\r\n\r\nI know how to do that in forms, using onclick running a function that returns true or false. But how do I do this with an <a> link?', '2020-06-10 10:16:18', 'https://stackoverflow.com/questions/10462839/how-to-display-a-confirmation-dialog-when-clicking-an-a-link', 0, 0, 1, 1)
+query : SELECT * FROM ARTICLE WHERE USER_ID=1 AND NOT IN(SELECT * FROM LABEL WHERE USER_ID=1ORDER BY ARTICLE_DATECREATION DESC
+USER ID loggedin : 1
+query : SELECT * FROM ARTICLE WHERE USER_ID=1 AND NOT IN(SELECT * FROM LABEL WHERE USER_ID=1ORDER BY ARTICLE_DATECREATION DESC
+USER ID loggedin : 1
+UPDATE : 
+INSERT INTO ARTICLE(ARTICLE_CODE, ARTICLE_TITLE, ARTICLE_SUMMARY, ARTICLE_CONTENT, ARTICLE_DATECREATION, ARTICLE_URL, ARTICLE_NBCLICK, ARTICLE_NBSHARE, USER_ID, ARTICLE_STATUS_ID) VALUES('917512', 'This is my title', 'This is a summary', 'My content is cool\r\nMy content is great!', '2020-06-10 10:18:11', 'https://sql.sh/cours/update', 0, 0, 1, 1)
+query : SELECT * FROM ARTICLE WHERE USER_ID=1 AND NOT IN(SELECT * FROM LABEL WHERE USER_ID=1ORDER BY ARTICLE_DATECREATION DESC
+USER ID loggedin : 1
+query : SELECT * FROM ARTICLE WHERE USER_ID=1 AND NOT IN(SELECT * FROM LABEL WHERE USER_ID=1ORDER BY ARTICLE_DATECREATION DESC
+USER ID loggedin : 1
+query : SELECT * FROM ARTICLE WHERE USER_ID=1 AND NOT IN(SELECT ARTICLE_ID FROM LABEL) ORDER BY ARTICLE_DATECREATION DESC
+USER ID loggedin : 1
+query : SELECT * FROM ARTICLE WHERE USER_ID=1 AND ARTICLE_ID NOT IN(SELECT ARTICLE_ID FROM LABEL) ORDER BY ARTICLE_DATECREATION DESC
+USER ID loggedin : 1
+UPDATE : 26
+query : SELECT * FROM ARTICLE WHERE USER_ID=1 AND ARTICLE_ID NOT IN(SELECT ARTICLE_ID FROM LABEL) ORDER BY ARTICLE_DATECREATION DESC
+USER ID loggedin : 1
+query : SELECT * FROM ARTICLE WHERE USER_ID=1 AND ARTICLE_ID NOT IN(SELECT ARTICLE_ID FROM LABEL) ORDER BY ARTICLE_DATECREATION DESC
+USER ID loggedin : 1
+query : SELECT * FROM ARTICLE WHERE USER_ID=1 AND ARTICLE_ID NOT IN(SELECT ARTICLE_ID FROM LABEL) ORDER BY ARTICLE_DATECREATION DESC
+USER ID loggedin : 1
+UPDATE : 27
+UPDATE ARTICLE SET ARTICLE_CODE='917513', ARTICLE_TITLE='This is my title', ARTICLE_SUMMARY='This is a summary', ARTICLE_CONTENT='My content is cool\r\nMy content is great!', ARTICLE_URL='https://sql.sh/cours/update' WHERE ARTICLE_ID=27
+query : SELECT * FROM ARTICLE WHERE USER_ID=1 AND ARTICLE_ID NOT IN(SELECT ARTICLE_ID FROM LABEL) ORDER BY ARTICLE_DATECREATION DESC
+USER ID loggedin : 1
+UPDATE : 
+INSERT INTO ARTICLE(ARTICLE_CODE, ARTICLE_TITLE, ARTICLE_SUMMARY, ARTICLE_CONTENT, ARTICLE_DATECREATION, ARTICLE_URL, ARTICLE_NBCLICK, ARTICLE_NBSHARE, USER_ID, ARTICLE_STATUS_ID) VALUES('67889', 'MY new title', 'this is a new summary', 'paraph 1\r\nparaph 2\r\nparaph 3', '2020-06-10 10:47:24', 'test.fr', 0, 0, 1, 1)
+query : SELECT * FROM ARTICLE WHERE USER_ID=1 AND ARTICLE_ID NOT IN(SELECT ARTICLE_ID FROM LABEL) ORDER BY ARTICLE_DATECREATION DESC
+USER ID loggedin : 1
+UPDATE : 27
+query : SELECT * FROM ARTICLE WHERE USER_ID=1 AND ARTICLE_ID NOT IN(SELECT ARTICLE_ID FROM LABEL) ORDER BY ARTICLE_DATECREATION DESC
+USER ID loggedin : 1
+UPDATE : 29
+query : SELECT * FROM ARTICLE WHERE USER_ID=1 AND ARTICLE_ID NOT IN(SELECT ARTICLE_ID FROM LABEL) ORDER BY ARTICLE_DATECREATION DESC
+USER ID loggedin : 1
+UPDATE : 29
+UPDATE ARTICLE SET ARTICLE_CODE='67889', ARTICLE_TITLE='MY new title', ARTICLE_SUMMARY='this is a new summary', ARTICLE_CONTENT='paraph 1\r\nparaph 2\r\nparaph 4', ARTICLE_URL='test.fr' WHERE ARTICLE_ID=29
+query : SELECT * FROM ARTICLE WHERE USER_ID=1 AND ARTICLE_ID NOT IN(SELECT ARTICLE_ID FROM LABEL) ORDER BY ARTICLE_DATECREATION DESC
+USER ID loggedin : 1
+UPDATE : 29
+query : SELECT * FROM ARTICLE WHERE USER_ID=1 AND ARTICLE_ID NOT IN(SELECT ARTICLE_ID FROM LABEL) ORDER BY ARTICLE_DATECREATION DESC
+USER ID loggedin : 1
+query : SELECT * FROM ARTICLE WHERE USER_ID=1 AND ARTICLE_ID NOT IN(SELECT ARTICLE_ID FROM LABEL) ORDER BY ARTICLE_DATECREATION DESC
+USER ID loggedin : 1
+query : SELECT * FROM ARTICLE WHERE USER_ID=1 AND ARTICLE_ID NOT IN(SELECT ARTICLE_ID FROM LABEL) ORDER BY ARTICLE_DATECREATION DESC
+USER ID loggedin : 1
+query : SELECT * FROM ARTICLE WHERE USER_ID=1 AND ARTICLE_ID NOT IN(SELECT ARTICLE_ID FROM LABEL) ORDER BY ARTICLE_DATECREATION DESC
+USER ID loggedin : 1
+UPDATE : 29
+UPDATE ARTICLE SET ARTICLE_CODE='67888', ARTICLE_TITLE='MY new title', ARTICLE_SUMMARY='this is a new summary', ARTICLE_CONTENT='paraph 1\r\nparaph 2\r\nparaph 4', ARTICLE_URL='test.fr' WHERE ARTICLE_ID=29
+query : SELECT * FROM ARTICLE WHERE USER_ID=1 AND ARTICLE_ID NOT IN(SELECT ARTICLE_ID FROM LABEL) ORDER BY ARTICLE_DATECREATION DESC
+USER ID loggedin : 1

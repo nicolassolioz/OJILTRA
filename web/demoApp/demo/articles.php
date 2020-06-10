@@ -55,6 +55,13 @@
                             </div>
 
                             <?php
+                            if(sizeof($articles)==0)
+                            {?>
+                            <p>No articles to evaluate</p>
+                            <?php
+                            }
+                            else
+                            {
                             for ($x = 0; $x < sizeof($articles); $x++) { ?>
                                 <div class="table-row">
                                     <div class="code"><?php echo $articles[$x]->code ?></div>
@@ -70,7 +77,7 @@
                                         <a href="./deleteArticle.php?articleId=<?php echo $articles[$x]->id; ?>" onclick="return confirm('Are you sure you want to delete this article?')" class="genric-btn link">Delete</a>
                                     </div>
                                 </div>
-                            <?php } ?>
+                            <?php }} ?>
                         </div>
                     </div>
 
