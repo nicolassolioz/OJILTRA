@@ -64,7 +64,7 @@
                                         <a href="./self_evaluation.php?articleId=<?php echo $articles[$x]->id; ?>" class="genric-btn link">Evaluate</a>
                                     </div>
                                     <div class="update">
-                                        <a href="./self_evaluation.php?articleId=<?php echo $articles[$x]->id; ?>" class="genric-btn link">Update</a>
+                                        <a href="./article.php?articleId=<?php echo $articles[$x]->id; ?>" class="genric-btn link">Update</a>
                                     </div>
                                     <div class="delete">
                                         <a href="./deleteArticle.php?articleId=<?php echo $articles[$x]->id; ?>" onclick="return confirm('Are you sure you want to delete this article?')" class="genric-btn link">Delete</a>

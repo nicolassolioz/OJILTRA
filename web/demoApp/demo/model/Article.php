@@ -112,6 +112,21 @@ class Article extends Entity
 		$this->executeQuery($query);
 	}
 
+	public function update()
+    {
+
+        $entity = new Article();
+
+        $title = $entity->real_escape_string($this->title);
+        $summary = $entity->real_escape_string($this->summary);
+        $content = $entity->real_escape_string($this->content);
+
+        $query = "UPDATE ARTICLE SET ARTICLE_CODE='" . $this->code . "', ARTICLE_TITLE='" . $title . "', ARTICLE_SUMMARY='" . $summary . "', ARTICLE_CONTENT='" . $content . "', ARTICLE_URL='" . $this->url . "' WHERE ARTICLE_ID=" . $this->id;
+
+        wh_log($query);
+        $this->executeQuery($query);
+    }
+
 	public static function getArticlesByStatus($article_status_id)
 	{
 		$articles = array();
