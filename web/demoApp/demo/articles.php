@@ -50,6 +50,8 @@
                                 <div class="date">Date</div>
                                 <div class="title">Title</div>
                                 <div class="evaluation">Evaluation</div>
+                                <div class="update">Update</div>
+                                <div class="delete">Delete</div>
                             </div>
 
                             <?php
@@ -61,9 +63,14 @@
                                     <div class="evaluation">
                                         <a href="./self_evaluation.php?articleId=<?php echo $articles[$x]->id; ?>" class="genric-btn link">Evaluate</a>
                                     </div>
+                                    <div class="update">
+                                        <a href="./self_evaluation.php?articleId=<?php echo $articles[$x]->id; ?>" class="genric-btn link">Update</a>
+                                    </div>
+                                    <div class="delete">
+                                        <a href="./deleteArticle.php?articleId=<?php echo $articles[$x]->id; ?>" onclick="return confirm('Are you sure you want to delete this article?')" class="genric-btn link">Delete</a>
+                                    </div>
                                 </div>
                             <?php } ?>
-                            ?>
                         </div>
                     </div>
 

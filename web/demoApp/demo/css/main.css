@@ -187,7 +187,7 @@ iframe {
   outline: none;
 }
 
-[ Utility ]*/
+[ Utility ]
 .txt1 {
   font-family: Poppins-Regular;
   font-size: 13px;
@@ -569,23 +569,31 @@ iframe {
 
 /* line 361, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_elements.scss */
 .progress-table .code {
-  width: 15%;
+  width: 10%;
   padding-left: 30px;
 }
 
 /* line 365, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_elements.scss */
 .progress-table .date {
-  width: 20%;
+  width: 30%;
 }
 
 /* line 368, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_elements.scss */
 .progress-table .title {
-  width: 50%;
+  width: 30%;
+}
+
+.progress-table .evaluation {
+  width: 10%;
+}
+
+.progress-table .update {
+  width: 10%;
 }
 
 /* line 371, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_elements.scss */
-.progress-table .evaluation {
-  width: 15%;
+.progress-table .delete {
+  width: 10%;
   padding-right: 150px;
 }
 
@@ -598,7 +606,9 @@ iframe {
 .progress-table .table-head .code,
 .progress-table .table-head .date,
 .progress-table .table-head .title,
-.progress-table .table-head .evaluation {
+.progress-table .table-head .evaluation,
+.progress-table .table-head .update,
+.progress-table .table-head .delete{
   color: #415094;
   line-height: 40px;
   text-transform: uppercase;
@@ -616,7 +626,9 @@ iframe {
 .progress-table .table-row .code,
 .progress-table .table-row .date,
 .progress-table .table-row .title,
-.progress-table .table-row .evaluation {
+.progress-table .table-row .evaluation,
+.progress-table .table-row .update,
+.progress-table .table-row .delete{
   display: flex;
 }
 
