@@ -17,6 +17,7 @@ if (isset($_POST['code']) && isset($_POST['url']) && isset($_POST['title']) && i
     $summary = $_POST['summary'];
     $content = $_POST['content'];
 
+    wh_log("MY TITLE : " . $title);
     $article = new Article();
     $article->code = $code;
     $article->url = $url;

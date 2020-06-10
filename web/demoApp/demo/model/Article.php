@@ -105,10 +105,11 @@ class Article extends Entity
 		$summary = $entity->real_escape_string($this->summary);
 		$content = $entity->real_escape_string($this->content);
 
+		//encoding UTF8 in order to understand accents
+		$query = "SET NAMES utf8";
+		$this->executeQuery($query);
+
 		$query = "INSERT INTO ARTICLE(ARTICLE_CODE, ARTICLE_TITLE, ARTICLE_SUMMARY, ARTICLE_CONTENT, ARTICLE_DATECREATION, ARTICLE_URL, ARTICLE_NBCLICK, ARTICLE_NBSHARE, USER_ID, ARTICLE_STATUS_ID) VALUES('".$this->code."', '".$title."', '".$summary."', '".$content."', '".$this->dateCreation."', '".$this->url."', 0, 0, ".$this->user_id.", ".$this->article_status_id.")";
-		//error_log("contect:".$content, 3, "log/my-errors.log");
-        //wh_log("Article created : " . date("hh-mm"));
-        wh_log($query);
 		$this->executeQuery($query);
 	}
 

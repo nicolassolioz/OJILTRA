@@ -56,6 +56,10 @@ class Entity
 	
 	public function delete()
 	{
+	    if($this->table_name="ARTICLE")
+        {
+            $this->db_conn->query("DELETE FROM ARTICLE_REVISION_HISTORY WHERE ARTICLE_ID=" . $this->id);
+        }
 		$this->db_conn->query("DELETE FROM " . $this->table_name . " WHERE " . $this->column_prefix . "ID = " . $this->id);
 	}
 	

@@ -61,7 +61,7 @@
                 if(!isset($params['articleId'])) {
                 ?>
 
-				<form class="article-form validate-form" method="POST" action="createArticle.php">
+				<form class="article-form validate-form" method="POST" action="createArticle.php" accept-charset="UTF-8">
                         <span class="login100-form-title">
 						Create a News Article
 					    </span>
