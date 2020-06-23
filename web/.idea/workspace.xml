@@ -2,12 +2,124 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f17b18b-733d-461c-8779-cd6507c0d9bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/demoApp/demo/log/log_18-Jun-2020.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoApp/demo/article.php" beforeDir="false" afterPath="$PROJECT_DIR$/demoApp/demo/article.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demoApp/demo/createArticle.php" beforeDir="false" afterPath="$PROJECT_DIR$/demoApp/demo/createArticle.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demoApp/demo/log/log_10-Jun-2020.log" beforeDir="false" afterPath="$PROJECT_DIR$/demoApp/demo/log/log_10-Jun-2020.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoApp/demo/model/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/demoApp/demo/model/Article.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoApp/demo/model/Entity.php" beforeDir="false" afterPath="$PROJECT_DIR$/demoApp/demo/model/Entity.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-27.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-28.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-29.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-31.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-32.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-33.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-34.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-35.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-36.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-37.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-38.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-39.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-40.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-41.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-42.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-43.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-44.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-45.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-46.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-47.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-48.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-49.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-50.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/create/ps-9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/init-api.php" beforeDir="false" afterPath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/init-api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-27.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-28.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-29.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-31.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-32.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-33.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-34.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-35.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-36.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-37.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-38.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-39.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-40.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-41.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-42.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-43.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-44.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-45.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-46.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-47.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-48.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-49.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-50.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-51.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-52.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-53.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-54.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-55.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-56.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-57.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-58.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-59.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-60.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-61.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-62.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-63.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApp/demo/plagiarismsearch/report/report-9.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +149,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -71,7 +184,7 @@
       <workItem from="1591297650810" duration="1937000" />
       <workItem from="1591368681714" duration="3257000" />
       <workItem from="1591634098392" duration="88000" />
-      <workItem from="1591635081977" duration="19019000" />
+      <workItem from="1591635081977" duration="20898000" />
     </task>
     <servers />
   </component>

@@ -1,5 +1,6 @@
 <?php
 
+
 require_once 'Reports.php';
 
 $config = [
@@ -11,3 +12,6 @@ $config = [
 $api = new Reports($config);
 
 header("Content-type: application/json; charset=UTF-8");
+header("Location: ../articles.php");
+
+?>

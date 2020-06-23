@@ -30,7 +30,7 @@ if (isset($_POST['code']) && isset($_POST['url']) && isset($_POST['title']) && i
 
     $article->save();
 
-    header("Location: articles.php");
+    header("Location: ./plagiarismsearch/init-api.php");
 }
 
 
