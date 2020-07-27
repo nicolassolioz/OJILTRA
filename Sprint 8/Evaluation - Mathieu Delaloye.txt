@@ -1,0 +1,23 @@
+Evaluation : M. Delaloye 
+---
+
+Confronter le projet avec les exigences du métier / la vision globale du projet 
+Est-ce que les journalistes peuvent utiliser le programme?
+User experience...
+
+
+
+Vérifier fonctionnement des popups
+
+
+EVALUATION : 
+- Utilisation du code, est-ce utile? (code de l'article)
+- Checkbox -> green, not red
+- Texte dans "self-evaluation.php" --> décrire le processus pour le journaliste
+- Mettre processus dans "list-articles.php" --> faire comprendre aux journalistes le processus dès le début 
+- "Create article" --> bouton mettre en haut (1ère étape du processus)
+- Faire page "Historique.php" avec tous les articles et leur état d'évaluation par l'éditeur
+- Pondération des indicateurs par indicateur et non par catégorie, à changer dans la base de données (ajouter col dans indicateur, mettre à 0 dans table catégorie)
+- A long terme -> prendre l'article créé dans le CMS pour économiser l'étape "créer  
+
+- RDV : Vendredi 25 juillet, montrer les modifications

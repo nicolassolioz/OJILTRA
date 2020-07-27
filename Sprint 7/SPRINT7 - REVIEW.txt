@@ -1,0 +1,46 @@
+
+Reste à faire : 
+- tri
+- autres indicateurs 
+- envoi pour approbation
+- calcul du score 
+- approbation 
+- documentation
+
+Questions :
+- quels sont les autres indicateurs?
+- comment est-ce qu'on calcule le score? -> pas encore défini, Zhan va faire une version beta "test" 
+- la méthodologie du calcul de score, défini par notre client, doit-elle être expliquée dans le TB? -> pas encore défini
+- documentation TB - pour le code et le dev --> détailler l'approche, montrer des extraits, expliquer le fonctionnement de l'UI?
+- db - est-ce que j'explique quand même son fonctionnement ? (les tables, leur contenu) -> oui 
+
+Zhan : - prend contact avec M.D
+- va envoyer liste beta des indicateurs
+
+A faire : 
+- Evaluation par Matthieu Delaloye -> (il part en vacances le 24 juillet) 
+  --> Zhan prend contact avec pour fixer séance évaluation ergonomie la semaine prochaine
+- Fixer rdv avec Nicole pour montrer la présentation (dès 17 août de retour)
+
+Prochain rdv : 
+Jeudi 30 juillet 
+10h le matin 
+
+
+count categories
+result = 4 
+
+count indicators
+result = 15
+y = 0
+z = 20
+
+for(x = 1; x<5; x++)
+	PRINT category name(x)
+		while(indicator[y]->id<x*10 OR y<= indicatorArray.length)
+			print info indicator[y]
+			y++
+		end while
+	z = z+10
+loop for
+

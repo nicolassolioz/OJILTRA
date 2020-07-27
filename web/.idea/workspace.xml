@@ -2,40 +2,169 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f17b18b-733d-461c-8779-cd6507c0d9bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Sprint 6/SPRINT6 - review.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tojc/demo/list-articles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tojc/demo/log/log_03-Jul-2020.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tojc/demo/log/log_13-Jul-2020.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tojc/demo/plagiarismsearch/articles/article-031193.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tojc/demo/plagiarismsearch/articles/article-546576.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tojc/demo/plagiarismsearch/articles/article-654321.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tojc/demo/plagiarismsearch/articles/article-777666.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tojc/demo/plagiarismsearch/articles/article-78790.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tojc/demo/plagiarismsearch/articles/article-9090.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tojc/demo/plagiarismsearch/articles/article-989898.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tojc/demo/plagiarismsearch/articles/article-et.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tojc/demo/plagiarismsearch/report/plagiarismreport-031193.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tojc/demo/plagiarismsearch/report/plagiarismreport-546576.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tojc/demo/plagiarismsearch/report/plagiarismreport-654321.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tojc/demo/plagiarismsearch/report/plagiarismreport-777666.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tojc/demo/plagiarismsearch/report/plagiarismreport-78790.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tojc/demo/plagiarismsearch/report/plagiarismreport-9090.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tojc/demo/plagiarismsearch/report/plagiarismreport-989898.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tojc/demo/plagiarismsearch/report/plagiarismreportdata-031193.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tojc/demo/plagiarismsearch/report/plagiat-results-031193.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint 8/Rapport_French Fake news Spreading.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint 8/TB-Solioz.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/es6-object-assign/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/es6-object-assign/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/es6-object-assign/auto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/es6-object-assign/dist/object-assign-auto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/es6-object-assign/dist/object-assign-auto.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/es6-object-assign/dist/object-assign.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/es6-object-assign/dist/object-assign.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/es6-object-assign/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/es6-object-assign/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/promise-polyfill/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/promise-polyfill/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/promise-polyfill/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/promise-polyfill/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/promise-polyfill/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/promise-polyfill/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/promise-polyfill/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/promise-polyfill/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/promise-polyfill/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/promise-polyfill/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/promise-polyfill/promise.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/promise-polyfill/promise.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/promise-polyfill/test/adapter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/promise-polyfill/test/promise.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert/dist/sweetalert.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert/typings/core.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert/typings/modules/actions.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert/typings/modules/class-list/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert/typings/modules/event-listeners.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert/typings/modules/init/buttons.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert/typings/modules/init/content.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert/typings/modules/init/icon.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert/typings/modules/init/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert/typings/modules/init/modal.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert/typings/modules/init/overlay.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert/typings/modules/init/text.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert/typings/modules/markup/buttons.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert/typings/modules/markup/content.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert/typings/modules/markup/icons.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert/typings/modules/markup/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert/typings/modules/markup/modal.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert/typings/modules/markup/overlay.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert/typings/modules/options/buttons.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert/typings/modules/options/content.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert/typings/modules/options/deprecations.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert/typings/modules/options/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert/typings/modules/state.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert/typings/modules/utils.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert/typings/sweetalert.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/dist/sweetalert2.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/dist/sweetalert2.all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/dist/sweetalert2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/dist/sweetalert2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/dist/sweetalert2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/dist/sweetalert2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/SweetAlert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/globalState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/instanceMethods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/instanceMethods/_destroy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/instanceMethods/_main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/instanceMethods/buttons-handlers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/instanceMethods/close.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/instanceMethods/enable-disable-elements.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/instanceMethods/getInput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/instanceMethods/hideLoading.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/instanceMethods/keydown-handler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/instanceMethods/popup-click-handler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/instanceMethods/progress-steps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/instanceMethods/show-reset-validation-error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/instanceMethods/update.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/privateMethods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/privateProps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/scss/_animations.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/scss/_body.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/scss/_polyfills.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/scss/_theming.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/scss/_toasts-animations.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/scss/_toasts-body.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/scss/_toasts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/staticMethods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/staticMethods/argsToParams.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/staticMethods/dom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/staticMethods/fire.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/staticMethods/mixin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/staticMethods/queue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/staticMethods/showLoading.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/staticMethods/timer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/sweetalert2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/sweetalert2.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/DismissReason.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/Timer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/aria.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/classes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/defaultInputValidators.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/dom/animationEndEvent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/dom/domUtils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/dom/getters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/dom/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/dom/init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/dom/inputUtils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/dom/measureScrollbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/dom/parseHtmlToContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/dom/renderers/render.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/dom/renderers/renderActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/dom/renderers/renderCloseButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/dom/renderers/renderContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/dom/renderers/renderContent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/dom/renderers/renderFooter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/dom/renderers/renderHeader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/dom/renderers/renderIcon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/dom/renderers/renderImage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/dom/renderers/renderInput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/dom/renderers/renderPopup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/dom/renderers/renderProgressSteps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/dom/renderers/renderTitle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/ieFix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/iosFix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/isNodeEnv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/openPopup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/params.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/scrollbarFix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/setParameters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/sweetalert2.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tojc/demo/log/log_27-Jul-2020.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Planification.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Planification.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sprint 0/SPRINT0 - Cahier des charges.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Sprint 0/SPRINT0 - Cahier des charges.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sprint 2/SPRINT2 - Etat de l'art II - Outils de plagiat APA.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Sprint 2/SPRINT2 - Etat de l'art II - Outils de plagiat APA.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tojc/demo/article.php" beforeDir="false" afterPath="$PROJECT_DIR$/tojc/demo/article.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tojc/demo/articles.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tojc/demo/checkLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/tojc/demo/checkLogin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tojc/demo/createArticle.php" beforeDir="false" afterPath="$PROJECT_DIR$/tojc/demo/createArticle.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tojc/demo/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/tojc/demo/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tojc/demo/createPlagiarismReport.php" beforeDir="false" afterPath="$PROJECT_DIR$/tojc/demo/createPlagiarismReport.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tojc/demo/createSelfEvaluation.php" beforeDir="false" afterPath="$PROJECT_DIR$/tojc/demo/createSelfEvaluation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tojc/demo/deleteArticle.php" beforeDir="false" afterPath="$PROJECT_DIR$/tojc/demo/deleteArticle.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tojc/demo/log/log_25-Jun-2020.log" beforeDir="false" afterPath="$PROJECT_DIR$/tojc/demo/log/log_25-Jun-2020.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tojc/demo/downloadPlagiarismResults.php" beforeDir="false" afterPath="$PROJECT_DIR$/tojc/demo/downloadPlagiarismResults.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tojc/demo/model/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/tojc/demo/model/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tojc/demo/model/Entity.php" beforeDir="false" afterPath="$PROJECT_DIR$/tojc/demo/model/Entity.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tojc/demo/model/Indicator.php" beforeDir="false" afterPath="$PROJECT_DIR$/tojc/demo/model/Indicator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tojc/demo/model/IndicatorCategory.php" beforeDir="false" afterPath="$PROJECT_DIR$/tojc/demo/model/IndicatorCategory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tojc/demo/model/SelfEvaluation.php" beforeDir="false" afterPath="$PROJECT_DIR$/tojc/demo/model/SelfEvaluation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tojc/demo/model/SelfEvaluationScore.php" beforeDir="false" afterPath="$PROJECT_DIR$/tojc/demo/model/SelfEvaluationScore.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tojc/demo/model/Similarity.php" beforeDir="false" afterPath="$PROJECT_DIR$/tojc/demo/model/Similarity.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tojc/demo/plagiarismsearch/Reports.php" beforeDir="false" afterPath="$PROJECT_DIR$/tojc/demo/plagiarismsearch/Reports.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tojc/demo/plagiarismsearch/getPlagiatResult.php" beforeDir="false" afterPath="$PROJECT_DIR$/tojc/demo/plagiarismsearch/getPlagiatResult.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tojc/demo/plagiarismsearch/getReportID.php" beforeDir="false" afterPath="$PROJECT_DIR$/tojc/demo/plagiarismsearch/getReportID.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tojc/demo/plagiarismsearch/init-api.php" beforeDir="false" afterPath="$PROJECT_DIR$/tojc/demo/plagiarismsearch/init-api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tojc/demo/plagiarismsearch/plagiarismsearch.php" beforeDir="false" afterPath="$PROJECT_DIR$/tojc/demo/plagiarismsearch/plagiarismsearch.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tojc/demo/self_evaluation.php" beforeDir="false" afterPath="$PROJECT_DIR$/tojc/demo/self_evaluation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tojc/demo/updateArticle.php" beforeDir="false" afterPath="$PROJECT_DIR$/tojc/demo/updateArticle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tojc/helloWorld.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,6 +200,16 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Nicolas Solioz\Documents\HES\TB\OJILTRA\web\demoApp\demo" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nicolas Solioz\Documents\HES\TB\OJILTRA\web\tojc\demo\images" />
+      <recent name="C:\Users\Nicolas Solioz\Documents\HES\TB\OJILTRA\web\tojc\images" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="$ npm install --save sweetalert" />
+      <command value="npm install sweetalert --save" />
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -101,7 +240,9 @@
       <workItem from="1591368681714" duration="3257000" />
       <workItem from="1591634098392" duration="88000" />
       <workItem from="1591635081977" duration="21553000" />
-      <workItem from="1593804627784" duration="14603000" />
+      <workItem from="1593804627784" duration="28383000" />
+      <workItem from="1594837706188" duration="50293000" />
+      <workItem from="1595254038741" duration="10654000" />
     </task>
     <servers />
   </component>
