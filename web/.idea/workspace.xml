@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f17b18b-733d-461c-8779-cd6507c0d9bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tojc/demo/log/log_28-Jul-2020.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tojc/demo/log/log_30-Jul-2020.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Sprint 8/TB-Solioz.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Sprint 8/TB-Solioz.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tojc/demo/createSelfEvaluation.php" beforeDir="false" afterPath="$PROJECT_DIR$/tojc/demo/createSelfEvaluation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tojc/demo/createPlagiarismReport.php" beforeDir="false" afterPath="$PROJECT_DIR$/tojc/demo/createPlagiarismReport.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tojc/demo/downloadPlagiarismResults.php" beforeDir="false" afterPath="$PROJECT_DIR$/tojc/demo/downloadPlagiarismResults.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tojc/demo/label_distribution.php" beforeDir="false" afterPath="$PROJECT_DIR$/tojc/demo/label_distribution.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tojc/demo/log/log_28-Jul-2020.log" beforeDir="false" afterPath="$PROJECT_DIR$/tojc/demo/log/log_28-Jul-2020.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tojc/demo/model/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/tojc/demo/model/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tojc/demo/self_evaluation.php" beforeDir="false" afterPath="$PROJECT_DIR$/tojc/demo/self_evaluation.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +88,7 @@
       <workItem from="1591635081977" duration="21553000" />
       <workItem from="1593804627784" duration="28383000" />
       <workItem from="1594837706188" duration="50293000" />
-      <workItem from="1595254038741" duration="13117000" />
+      <workItem from="1595254038741" duration="20380000" />
     </task>
     <servers />
   </component>
